@@ -5,7 +5,7 @@ This mod is heavily WIP and not in any release state yet, but if someone still w
 An example on how to spawn the zones can be found within the mission's init.c
 
 The mod requires Jacob's RPCFramework mod
-[Download here]: https://github.com/Jacob-Mango/DayZ-RPCFramework/releases/tag/1.0
+[Download here](https://github.com/Jacob-Mango/DayZ-RPCFramework/releases/tag/1.0)
 
 
 ## (Planned) Features Pre-release
