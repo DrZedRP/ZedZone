@@ -12,3 +12,4 @@ An example on how to spawn the zones can be found within the mission's init.c
   - Damage mitigation based on "MASK"-slot e.g. GP5GasMask, NioshFaceMask (respirator)
   - Zone Sickness to prevent camping (not yet)
   - Zone Debuff to prevent hopping in and out (not yet)
+  - random events/zone spawn (not yet)
