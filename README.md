@@ -1,6 +1,7 @@
 # Dr.Zed's ZedZone
 
-This mod is heavil WIP and not in any release state yet!
+This mod is heavily WIP and not in any release state yet!
+Still if someobe wants to take a look at it feel free to do so.
 
 
 ## (Planned) Features Pre-release
