@@ -84,18 +84,13 @@ class ZoneChecker extends ScriptedEntity
 			ZoneInsider ins;	
 			//Print("[ZedZone] " + m_currentPlayer.ToString());
 			PlayerBase currentPlayer = PlayerBase.Cast(m_Players.Get(i));
-			
+		
 			float distance = vector.Distance(GetPosition(),currentPlayer.GetPosition());
 			//zzDebugPrint(this.ToString()+ ": " + "distance = " + distance);
 			bool isInside = checkInsiders(currentPlayer);
 			
 			//zzDebugPrint(this.ToString()+ ": " + "m_insiders.Count() = " + m_insiders.Count());
-			for(int n = 0; n < m_insiders.Count(); n++) 
-			{
-				ins = m_insiders.Get(n);
-				//zzDebugPrint(this.ToString()+ ": " + "m_insiders.GetObject() = " + ins.GetObject());
 
-			}
 			ins = new ZoneInsider(currentPlayer);
 
 			if(isInside >= 0) 
