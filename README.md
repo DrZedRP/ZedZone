@@ -1,8 +1,8 @@
 # Dr.Zed's ZedZone
 
-This mod is heavily WIP and not in any release state yet!
-Still if someobe wants to take a look at it feel free to do so.
+This mod is heavily WIP and not in any release state yet, but if someone still wants to take a look at it feel free to do so.
 
+An example on how to spawn the zones can be found within the mission's init.c
 
 ## (Planned) Features Pre-release
 
