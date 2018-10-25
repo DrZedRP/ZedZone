@@ -4,7 +4,7 @@ void zzPrint (string s)
 }
 void zzDebugPrint (string s)
 {
-	//Print("[ZedZone] (DEBUG) "  + s); // comment/uncomment to hide/see debug logs
+	Print("[ZedZone] (DEBUG) "  + s); // comment/uncomment to hide/see debug logs
 }
 void zzDebugSpam (string s)
 {

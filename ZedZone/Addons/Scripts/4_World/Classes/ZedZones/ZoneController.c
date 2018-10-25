@@ -108,6 +108,7 @@ class ZoneController
 		return m_CallQueue;
 	}	
 
+	// Copied over from StateManager
 	int CreateUniqueID()
 	{
 		int uid = Math.RandomInt( 1, 2147483647);
