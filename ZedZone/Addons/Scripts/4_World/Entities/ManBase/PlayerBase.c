@@ -54,28 +54,7 @@ modded class PlayerBase extends ManBase
 
 	// -------------------------------------------------------------------------
 
-	override void OnRPC(PlayerIdentity sender, int rpc_type, ParamsReadContext ctx)
-	{
-		super.OnRPC(sender, rpc_type, ctx);
-		
-		
-		switch(rpc_type)
-		{
-			case ZZeRPCs.RPC_ZZ_ZONE_STAGE:
 
-				if( !GetInstanceType() == DayZPlayerInstanceType.INSTANCETYPE_CLIENT )
-				{
-					break;
-				}
-
-				//GetZoneManager().OnRPC(rpc_type,ctx);
-
-			break;
-	  
-	
-		}
-
-	}
 
 
 
